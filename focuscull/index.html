@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FocusCull —— 面向影像效果验收的多版本图片对比工具，把对比、定位、判断与报告放进一个本地工作台。">
+  <title>FocusCull · 把一次验收变成一条完整流程</title>
+  <link rel="stylesheet" href="../site.css">
+  <script src="../nav.js" defer></script>
+</head>
+<body>
+  <main class="site">
+
+    <section id="hero">
+      <p class="kicker">INDEPENDENT PRODUCT · IMAGE QA</p>
+      <h1>FocusCull</h1>
+      <p class="meta">多版本图片对比与效果验收工具 · PySide6 桌面应用 · 当前 v1.4</p>
+      <p class="intro">在影像产品里，同一张图经常有十几个算法版本。FocusCull 把“对比、定位、判断、留档”放进一个本地工作台，让一次验收不再停在聊天记录里。</p>
+
+      <div class="contact-row">
+        <a class="contact-btn contact-btn--dark" href="#features">看它怎么工作</a>
+        <a class="contact-btn contact-btn--light" href="#story">了解产品思路</a>
+      </div>
+    </section>
+
+    <section id="features">
+      <h2>把一次验收，变成一条完整流程</h2>
+      <img src="../focuscull/focuscull-real.jpg" alt="FocusCull 1.4 真实运行界面：左侧图片队列、中间并列版本对比、顶部评审与报告工具栏" class="shot">
+      <p class="small" style="margin-bottom:30px;">FocusCull 1.4 真实运行界面 · 并列对比模式</p>
+      <div class="rowitem">
+        <h3>多版本同步对比</h3>
+        <p>网格 / 单图两种模式，缩放与位置同步联动，先把差异看清楚。</p>
+      </div>
+      <div class="rowitem">
+        <h3>星标、打分与 Best</h3>
+        <p>0–5 星标、0–10 打分和 Best 标记，快速记录选择与结论。</p>
+      </div>
+      <div class="rowitem">
+        <h3>图上锚点批注</h3>
+        <p>问题直接落在图片具体位置，研发看到的是问题本身，而不是一段模糊描述。</p>
+      </div>
+      <div class="rowitem">
+        <h3>蒙版验收模式</h3>
+        <p>聚焦局部区域，验证人像、调色或算法效果的细小改动。</p>
+      </div>
+      <div class="rowitem">
+        <h3>离线 HTML 报告导出</h3>
+        <p>把选中的版本、评分和问题清单打包成可分享的报告，无需安装任何东西。</p>
+      </div>
+    </section>
+
+    <section id="story">
+      <h2>为什么做它</h2>
+      <p>修图或影像算法迭代时，真正难的往往不是看到差异，而是让产品、算法、设计和研发对同一个差异形成共识。过去的结论散在聊天记录和口头沟通里：哪一版更好、问题在哪、为什么通过，很快就难以追溯。</p>
+      <p>FocusCull 用版本对比、图上锚点、评分和 HTML 报告，把一次验收从“看图”变成“有依据的判断”。</p>
+      <p class="quote">不是让人多看几张图，而是让团队更快对齐一个结论。</p>
+      <h2>我的角色</h2>
+      <p>我负责需求定义、信息架构、交互设计和版本规划；再用 AI 辅助编程，把产品判断落成真正能跑的桌面工具。它是我对产品经理角色的一次延伸：不只写清楚要做什么，也把关键流程做出来。</p>
+      <h2>从内部工具走向独立产品</h2>
+      <p>当前在 Camera360 内部用于效果验收，同事已自发拉取使用。下一步是把内部场景打磨成可独立交付的个人工具：纯本地、无账号、无订阅、无云端依赖，正在探索个人买断制。</p>
+      <p class="small">当前仓库为私有，定价与发布渠道确认中。有意试用可联系我。</p>
+    </section>
+
+    <footer class="site-footer">
+      <p class="small">© <span id="year">2026</span> makeapp · <a href="../">← 返回首页</a> · <a href="https://github.com/makeaplo" target="_blank" rel="noreferrer">GitHub</a></p>
+    </footer>
+
+  </main>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
